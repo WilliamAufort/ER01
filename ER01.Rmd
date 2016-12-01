@@ -20,3 +20,19 @@ plot(cars)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+Example of ggplot
+
+```{r}
+library(ggplot2)
+ggplot(data=cars, aes(x=speed, y=dist)) + geom_point()
+```
+
+My project :
+
+I try to open the csv file of my (little) experiment :
+
+```{r, echo=FALSE}
+df <- read.csv("~/Documents/M2/stage/experiments/build/test.csv", header = T);
+ggplot(data=df, aes(x=nb.of.monomials, y=nb.layers)) + geom_point()
+```

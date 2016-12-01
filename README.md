@@ -1,7 +1,13 @@
-           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+# ER01
+
+A simple "project" for the ER01 do practize R and all the things around I will never use anymore.
+
+#Licence
+
+DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                    Version 2, December 2004
  
-Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+Copyright (C) 2016 William Aufort
  
 Everyone is permitted to copy and distribute verbatim or modified
 copies of this license document, and changing it is allowed as long

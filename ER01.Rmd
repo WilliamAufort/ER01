@@ -7,11 +7,11 @@ output: pdf_document
 
 # Introduction
 
-This R Markdown document summarizes the work I've done for the ER01, which is a research school about scientific methodology and performance evaluation in computer science.
+This R Markdown document summarizes the work I've done for a research school about scientific methodology and performance evaluation in computer science exposed by [Arnaud Legrand](http://mescal.imag.fr/membres/arnaud.legrand/) at the ENS Lyon. [This webpage](https://github.com/alegrand/SMPE) contains the lectures given during this research school.
 
 ### R Markdown ?
 
-Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. You can also include several contents, such a datas or code for your prefered language! For more details on using R Markdown see [this website](http://rmarkdown.rstudio.com>).
+Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. You can also include several contents, such as datas or code from your prefered language! For more details on using R Markdown see [this website](http://rmarkdown.rstudio.com>).
 
 ### The subject
 
@@ -51,15 +51,15 @@ values <- read.csv("values.csv", header = T);
 
 Let's see some of them:
 
-```{r, echo=FALSE}
+```{r}
 head(values)
-library("ggplot2")
 ```
 
 These one are not so interesting, because we only see sets with few points.
 Let's see what's happening with more complex sets:
 
 ```{r}
+library("ggplot2")
 ggplot(data=values, aes(monomials, layers)) + geom_point()
 ```
 

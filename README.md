@@ -1,6 +1,6 @@
 # ER01
 
-A simple "project" for the ER01 do practize R and all the things around I will never use anymore.
+A simple project for the ER01 do practize R and all the things around.
 
 #Licence
 

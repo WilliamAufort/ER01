@@ -2,6 +2,8 @@
 
 A simple project for the ER01 do practize R and all the things around.
 
+One can also find the final HTML webpage generated [here](http://perso.ens-lyon.fr/william.aufort/ER01.html).
+
 #Licence
 
 DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
